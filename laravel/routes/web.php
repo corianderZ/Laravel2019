@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/hello/{id}',function($id){
     return "hello world >.< ";
 });
+
+Route::get('/adminlogin','Admin/LoginController@getlogin');
