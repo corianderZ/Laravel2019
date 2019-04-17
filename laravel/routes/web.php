@@ -20,3 +20,4 @@ Route::get('/hello/{id}',function($id){
 });
 
 Route::get('/adminlogin','Admin\LoginController@getlogin');
+Route::post('/checklogin','Admin\LoginController@checkLogin');
